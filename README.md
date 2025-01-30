@@ -1,2 +1,2 @@
 # coding1-cpp2
-The C++ code that I create for my Coding 1 class.
+The C++ code that I created for my Coding 1 class.
