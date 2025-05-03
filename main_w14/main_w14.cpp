@@ -7,6 +7,14 @@
 #include "ship.h"
 using namespace std;
 
+// void writeShipToFile(ship givenShip) {
+    // string name = givenShip.name;
+    // int fuel = givenShip.fuel;
+    // shipType shipType = givenShip.type;
+
+    // string writeToFile = "Name: " 
+// }
+
 // Write and Read cut and placed into filez.cpp
 
 int main() {
@@ -18,8 +26,10 @@ int main() {
     WriteToFile("Did you get the Switch 2 preorder?\n");
 
     ship minnow;
-    minnow.type = CRUISER;s
+    minnow.type = CRUISER;
     minnow.status();
+
+    WriteShipToFile(minnow);
 
     return 0;
 }
